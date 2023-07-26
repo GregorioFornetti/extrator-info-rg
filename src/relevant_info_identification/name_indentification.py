@@ -1,5 +1,5 @@
 
-from utils import find_text
+from relevant_info_identification.utils import find_text
 
 import pandas as pd
 

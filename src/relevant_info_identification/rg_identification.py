@@ -1,5 +1,5 @@
 
-from utils import create_info_dict_from_row, find_text
+from relevant_info_identification.utils import create_info_dict_from_row, find_text
 
 import re
 

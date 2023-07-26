@@ -1,5 +1,5 @@
 
-from utils import create_info_dict_from_row, find_text
+from relevant_info_identification.utils import create_info_dict_from_row, find_text
 
 import re
 
@@ -31,8 +31,8 @@ def format_date(unformated_date: str):
     date = re.sub(r'[\/]', '', unformated_date)
     # Retorna a data formatada com o seu padrão correto
     return {
-        'formated_date': f'{date[0:2]}/{date[3:4]}/{date[5:]}',
-        'day': int(date[0:1]),
-        'month': int(date[2:3]),
+        'formated_date': f'{date[0:2]}/{date[2:4]}/{date[4:]}',
+        'day': int(date[0:2]),
+        'month': int(date[2:4]),
         'year': int(date[4:])
     }
