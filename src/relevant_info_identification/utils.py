@@ -16,3 +16,10 @@ def find_text(find_function, identified_texts_df: pd.DataFrame, text_column_name
         return result[0]
     else:
         return ''
+
+def find_index(find_function, identified_texts_df: pd.DataFrame, text_column_name: str = 'text'):
+    result = find_function(identified_texts_df, text_column_name)
+    if result:
+        return result[2]
+    else:
+        return [-1]

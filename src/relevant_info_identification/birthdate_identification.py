@@ -1,5 +1,5 @@
 
-from relevant_info_identification.utils import create_info_dict_from_row, find_text
+from relevant_info_identification.utils import create_info_dict_from_row, find_text, find_index
 
 import re
 
@@ -11,13 +11,16 @@ date_regex = r'^\d{2}[\/]?\d{2}[\/]?\d{4}$'
 def find_birthdate_text(identified_texts_df: pd.DataFrame, text_column_name: str = 'text'):
     return find_text(find_birthdate, identified_texts_df, text_column_name)
 
+def find_birthdate_index(identified_texts_df: pd.DataFrame, text_column_name: str = 'text'):
+    return find_index(find_birthdate, identified_texts_df, text_column_name)
+
 def find_birthdate(identified_texts_df: pd.DataFrame, text_column_name: str = 'text'):
     dates_count = 0
     for i, row in identified_texts_df.iterrows():
         if is_date(row[text_column_name]):
             dates_count += 1
         if dates_count == 2:
-            return format_date(row[text_column_name]), create_info_dict_from_row(row, 'nasc.')
+            return format_date(row[text_column_name]), create_info_dict_from_row(row, 'nasc.'), [i]
     return False
 
 

@@ -1,2 +1,5 @@
-id;image_path;ocr_path;segmentation_path;info_path;CPF;RG;birthdate;name
-000111111;files/000111111_in.jpg;files/000111111_gt_ocr.txt;files/000111111_gt_segmentation.jpg;files/000111111_info.json;354.205.532-87;08.096.661-5;12/05/1971;Rebelo Ronei Nakamurakare
+id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
+000111111;files/000111111_in.jpg;files/000111111_gt_ocr.txt;files/000111111_gt_segmentation.jpg;files/000111111_info.json;354.205.532-87;08.096.661-5;02/01/1963;Rebelo Ronei Nakamurakare
+000230000;files/000230000_in.jpg;files/000230000_gt_ocr.txt;files/000230000_gt_segmentation.jpg;files/000230000_info.json;188.354.397-52;29.227.222-4;05/05/1984;Kohatsu Liberatti Ivan
+000233025;files/000233025_in.jpg;files/000233025_gt_ocr.txt;files/000233025_gt_segmentation.jpg;files/000233025_info.json;370.678.495-51;73.377.624-3;16/02/1976;Chicaro Okubaro Salvo
+000233331;files/000233331_in.jpg;files/000233331_gt_ocr.txt;files/000233331_gt_segmentation.jpg;files/000233331_info.json;624.476.345-95;84.941.430-1;20/11/2008;Hochun Cerdeira Crema

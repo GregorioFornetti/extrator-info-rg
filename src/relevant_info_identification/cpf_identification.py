@@ -1,5 +1,5 @@
 
-from relevant_info_identification.utils import create_info_dict_from_row, find_text
+from relevant_info_identification.utils import create_info_dict_from_row, find_text, find_index
 
 import re
 
@@ -11,10 +11,13 @@ cpf_regex = r'^\d{3}[\,\.]?\d{3}[\,\.]?\d{3}[\,\.\-\/]?\d{2}$'
 def find_cpf_text(identified_texts_df: pd.DataFrame, text_column_name: str = 'text'):
     return find_text(find_cpf, identified_texts_df, text_column_name)
 
+def find_cpf_index(identified_texts_df: pd.DataFrame, text_column_name: str = 'text'):
+    return find_index(find_cpf, identified_texts_df, text_column_name)
+
 def find_cpf(identified_texts_df: pd.DataFrame, text_column_name: str = 'text'):
     for i, row in identified_texts_df.iterrows():
         if is_cpf(row[text_column_name]):
-            return format_cpf(row[text_column_name]), create_info_dict_from_row(row, 'cpf')
+            return format_cpf(row[text_column_name]), create_info_dict_from_row(row, 'cpf'), [i]
     return False
 
 def is_cpf(text):
