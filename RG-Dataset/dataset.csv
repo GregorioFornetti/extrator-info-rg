@@ -3,3 +3,5 @@ id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
 000230000;files/000230000_in.jpg;files/000230000_gt_ocr.txt;files/000230000_gt_segmentation.jpg;files/000230000_info.json;188.354.397-52;29.227.222-4;05/05/1984;Kohatsu Liberatti Ivan
 000233025;files/000233025_in.jpg;files/000233025_gt_ocr.txt;files/000233025_gt_segmentation.jpg;files/000233025_info.json;370.678.495-51;73.377.624-3;16/02/1976;Chicaro Okubaro Salvo
 000233331;files/000233331_in.jpg;files/000233331_gt_ocr.txt;files/000233331_gt_segmentation.jpg;files/000233331_info.json;624.476.345-95;84.941.430-1;20/11/2008;Hochun Cerdeira Crema
+000250000;files/000250000_in.jpg;files/000250000_gt_ocr.txt;files/000250000_gt_segmentation.jpg;files/000250000_info.json;;48.753.318-5;20/07/1978;Scrignoli Petenusci Rombach
+000250001;files/000250001_in.jpg;files/000250001_gt_ocr.txt;files/000250001_gt_segmentation.jpg;files/000250001_info.json;298.022.219-45;38.921.574-0;26/03/1974;Gerassi Chibalin
