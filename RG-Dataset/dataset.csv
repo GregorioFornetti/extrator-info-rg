@@ -1,0 +1,2 @@
+id;image_path;ocr_path;segmentation_path;info_path;CPF;RG;birthdate;name
+000111111;files/000111111_in.jpg;files/000111111_gt_ocr.txt;files/000111111_gt_segmentation.jpg;files/000111111_info.json;354.205.532-87;08.096.661-5;12/05/1971;Rebelo Ronei Nakamurakare
