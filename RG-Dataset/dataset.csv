@@ -5,3 +5,16 @@ id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
 000233331;files/000233331_in.jpg;files/000233331_gt_ocr.txt;files/000233331_gt_segmentation.jpg;files/000233331_info.json;624.476.345-95;84.941.430-1;20/11/2008;Hochun Cerdeira Crema
 000250000;files/000250000_in.jpg;files/000250000_gt_ocr.txt;files/000250000_gt_segmentation.jpg;files/000250000_info.json;;48.753.318-5;20/07/1978;Scrignoli Petenusci Rombach
 000250001;files/000250001_in.jpg;files/000250001_gt_ocr.txt;files/000250001_gt_segmentation.jpg;files/000250001_info.json;298.022.219-45;38.921.574-0;26/03/1974;Gerassi Chibalin
+000250002;files/000250002_in.jpg;files/000250002_gt_ocr.txt;files/000250002_gt_segmentation.jpg;files/000250002_info.json;354.205.532-87;08.096.661-5;02/01/1963;Rebelo Ronei Nakamurakare
+000252222;files/000252222_in.jpg;files/000252222_gt_ocr.txt;files/000252222_gt_segmentation.jpg;files/000252222_info.json;624.476.345-95;84.941.430-1;20/11/2008;Hochun Cerdeira Crema
+000254141;files/000254141_in.jpg;files/000254141_gt_ocr.txt;files/000254141_gt_segmentation.jpg;files/000254141_info.json;;59.699.252-5;28/09/1999;Lorber Mazzini Naghirniac
+000259281;files/000259281_in.jpg;files/000259281_gt_ocr.txt;files/000259281_gt_segmentaton.jpg;files/000259281_info.json;370.678.495-51;73.377.624-3;16/02/1976;Chicaro Okubaro Salvo
+00025928_;files/00025928_in.jpg;files/00025928_gt_ocr.txt;files/00025928_gt_segmentation.jpg;files/00025928__info.json;025.762.835-51;07.116.299-9;20/08/1999;Sandler Caffaro
+00025929_;files/00025929_in.jpg;files/00025929_gt_ocr.txt;files/00025929_gt_segmentation.jpg;files/00025929__info.json;355.463.190-62;47.763.681-0;15/01/1959;Kenji Sanchetta Plastino
+00025930_;files/00025930_in.jpg;files/00025930_gt_ocr.txt;files/00025930_gt_segmentation.jpg;files/00025930__info.json;;53.217.319-3;04/02/1992;Schaeffner Crippa Rennyo
+00025931_;files/00025931_in.jpg;files/00025931_gt_ocr.txt;files/00025931_gt_segmentation.jpg;files/00025931__info.json;237.696.411-32;12.887.048-5;06/01/2009;Sontag Brondani Dalben
+00025932_;files/00025932_in.jpg;files/00025932_gt_ocr.txt;files/00025932_gt_segmentation.jpg;files/00025932__info.json;;44.483.656-1;10/12/1988;Zampronio Penteado Escat
+00025933_;files/00025933_in.jpg;files/00025933_gt_ocr.txt;files/00025933_gt_segmentation.jpg;files/00025933__info.json;278.084.848-06;25.822.625-0;09/09/1969;Belinassi Salezia Dulcineia
+00025934_;files/00025934_in.jpg;files/00025934_gt_ocr.txt;files/00025934_gt_segmentation.jpg;files/00025934__info.json;;16.298.687-7;16/07/1962;Mescoki Martin Benedeti
+00025935_;files/00025935_in.jpg;files/00025935_gt_ocr.txt;files/00025935_gt_segmentation.jpg;files/00025935__info.json;750.046.903-91;06.343.926-8;20/07/2001;Azoubel Ueki Ruggiero
+00025936_;files/00025936_in.jpg;files/00025936_gt_ocr.txt;files/00025936_gt_segmentation.jpg;files/00025936__info.json;920.227.404-59;34.087.090-4;28/11/1972;Whitaker Crestana Remorini
