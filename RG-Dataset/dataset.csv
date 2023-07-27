@@ -18,3 +18,4 @@ id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
 00025934_;files/00025934_in.jpg;files/00025934_gt_ocr.txt;files/00025934_gt_segmentation.jpg;files/00025934__info.json;;16.298.687-7;16/07/1962;Mescoki Martin Benedeti
 00025935_;files/00025935_in.jpg;files/00025935_gt_ocr.txt;files/00025935_gt_segmentation.jpg;files/00025935__info.json;750.046.903-91;06.343.926-8;20/07/2001;Azoubel Ueki Ruggiero
 00025936_;files/00025936_in.jpg;files/00025936_gt_ocr.txt;files/00025936_gt_segmentation.jpg;files/00025936__info.json;920.227.404-59;34.087.090-4;28/11/1972;Whitaker Crestana Remorini
+00025937_;files/00025937_in.jpg;files/00025937_gt_ocr.txt;files/00025937_gt_segmentation.jpg;files/00025937__info.json;424.882.456-66;09.346.392-3;13/02/1998;Goularte Pantaroto Loscalzo
