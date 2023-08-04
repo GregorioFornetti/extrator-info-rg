@@ -917,3 +917,28 @@ id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
 00026863;files/00026863_in.jpg;files/00026863_gt_ocr.txt;files/00026863_gt_segmentation.jpg;files/00026863_info.json;579.129.745-98;04.355.100-2;07/05/2002;Avelas Wilkens Lacaz
 00026864;files/00026864_in.jpg;files/00026864_gt_ocr.txt;files/00026864_gt_segmentation.jpg;files/00026864_info.json;866.125.989-48;44.840.014-5;02/02/1982;Akutagawa Crivelini Eleia
 00026865;files/00026865_in.jpg;files/00026865_gt_ocr.txt;files/00026865_gt_segmentation.jpg;files/00026865_info.json;;02.967.492-7;06/01/1983;Malandrin Thaila Pinaya
+00026866;files/00026866_in.jpg;files/00026866_gt_ocr.txt;files/00026866_gt_segmentation.jpg;files/00026866_info.json;;30.189.332-9;01/11/2006;Tarif Papi
+00026867;files/00026867_in.jpg;files/00026867_gt_ocr.txt;files/00026867_gt_segmentation.jpg;files/00026867_info.json;155.101.022-41;65.058.680-3;02/11/1991;Menetti Radoll Koyu
+00026868;files/00026868_in.jpg;files/00026868_gt_ocr.txt;files/00026868_gt_segmentation.jpg;files/00026868_info.json;475.171.224-10;17.013.345-0;15/10/1972;Herculiani Hee Teggi
+00026869;files/00026869_in.jpg;files/00026869_gt_ocr.txt;files/00026869_gt_segmentation.jpg;files/00026869_info.json;434.990.097-73;09.523.348-9;10/06/1959;Dalecio Turte Apoloni
+00026870;files/00026870_in.jpg;files/00026870_gt_ocr.txt;files/00026870_gt_segmentation.jpg;files/00026870_info.json;187.936.033-04;44.161.618-5;15/04/1975;Kesrouani Gezimar Prelorentzou
+00026871;files/00026871_in.jpg;files/00026871_gt_ocr.txt;files/00026871_gt_segmentation.jpg;files/00026871_info.json;344.945.368-81;39.842.390-8;03/11/1998;Aristides Latorre Shuhei
+00026872;files/00026872_in.jpg;files/00026872_gt_ocr.txt;files/00026872_gt_segmentation.jpg;files/00026872_info.json;731.972.717-00;81.437.224-7;31/08/1986;Toshiharu Sh
+00026873;files/00026873_in.jpg;files/00026873_gt_ocr.txt;files/00026873_gt_segmentation.jpg;files/00026873_info.json;440.421.141-48;81.360.602-0;13/11/2000;Pergher Teran Kamilla
+00026874;files/00026874_in.jpg;files/00026874_gt_ocr.txt;files/00026874_gt_segmentation.jpg;files/00026874_info.json;;64.149.915-2;10/02/1989;Minaguti Faury Dalmiro
+00026875;files/00026875_in.jpg;files/00026875_gt_ocr.txt;files/00026875_gt_segmentation.jpg;files/00026875_info.json;446.499.500-40;37.547.054-2;23/03/1989;Fabrizzio Larocca Caragelasco
+00026876;files/00026876_in.jpg;files/00026876_gt_ocr.txt;files/00026876_gt_segmentation.jpg;files/00026876_info.json;;92.717.083-8;27/12/1997;Patric Khu
+00026877;files/00026877_in.jpg;files/00026877_gt_ocr.txt;files/00026877_gt_segmentation.jpg;files/00026877_info.json;977.044.576-24;71.514.584-8;16/01/1961;Triumpho Lazzareschi Arvigo
+00026878;files/00026878_in.jpg;files/00026878_gt_ocr.txt;files/00026878_gt_segmentation.jpg;files/00026878_info.json;354.712.513-85;44.168.098-7;01/11/2011;Lynn Arrigucci Tonoli
+00026879;files/00026879_in.jpg;files/00026879_gt_ocr.txt;files/00026879_gt_segmentation.jpg;files/00026879_info.json;;91.310.526-0;10/08/1978;Lanconi Gaiarsa Lapi
+00026880;files/00026880_in.jpg;files/00026880_gt_ocr.txt;files/00026880_gt_segmentation.jpg;files/00026880_info.json;689.985.048-63;10.245.458-9;20/06/1976;Fontelas Conard Uglik
+00026881;files/00026881_in.jpg;files/00026881_gt_ocr.txt;files/00026881_gt_segmentation.jpg;files/00026881_info.json;782.990.391-34;29.050.551-3;04/04/1973;Ezer Thomaz Kazuaki
+00026882;files/00026882_in.jpg;files/00026882_gt_ocr.txt;files/00026882_gt_segmentation.jpg;files/00026882_info.json;886.796.455-08;08.247.410-2;07/05/1964;Sumiya Hauptman Funagoshi
+00026883;files/00026883_in.jpg;files/00026883_gt_ocr.txt;files/00026883_gt_segmentation.jpg;files/00026883_info.json;597.691.744-59;17.641.835-0;15/08/2010;Amo Edneia Matte
+00026884;files/00026884_in.jpg;files/00026884_gt_ocr.txt;files/00026884_gt_segmentation.jpg;files/00026884_info.json;001.948.593-04;54.850.271-7;18/07/1983;Endo Albano Hornink
+00026885;files/00026885_in.jpg;files/00026885_gt_ocr.txt;files/00026885_gt_segmentation.jpg;files/00026885_info.json;;97.482.052-0;25/02/2000;Mendes Foch Kasteckas
+00026886;files/00026886_in.jpg;files/00026886_gt_ocr.txt;files/00026886_gt_segmentation.jpg;files/00026886_info.json;525.026.285-63;31.087.992-9;27/03/1986;Mulatti Palla Naige
+00026887;files/00026887_in.jpg;files/00026887_gt_ocr.txt;files/00026887_gt_segmentation.jpg;files/00026887_info.json;197.772.066-82;62.441.185-0;27/07/2015;Passador Kuwana Gurgeira
+00026888;files/00026888_in.jpg;files/00026888_gt_ocr.txt;files/00026888_gt_segmentation.jpg;files/00026888_info.json;;35.221.104-0;04/03/1996;Muggler Nosow Vedovello
+00026889;files/00026889_in.jpg;files/00026889_gt_ocr.txt;files/00026889_gt_segmentation.jpg;files/00026889_info.json;088.135.340-00;04.747.641-2;13/10/1966;Wajchenberg Hamilton Alvis
+00026890;files/00026890_in.jpg;files/00026890_gt_ocr.txt;files/00026890_gt_segmentation.jpg;files/00026890_info.json;299.565.747-75;81.027.231-3;12/03/1952;Mitti Bacarin Febraio
