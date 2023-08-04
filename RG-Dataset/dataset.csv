@@ -916,3 +916,4 @@ id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
 00026862;files/00026862_in.jpg;files/00026862_gt_ocr.txt;files/00026862_gt_segmentation.jpg;files/00026862_info.json;973.352.343-79;27.205.367-3;25/10/1958;Ciuffi Prandini Restum
 00026863;files/00026863_in.jpg;files/00026863_gt_ocr.txt;files/00026863_gt_segmentation.jpg;files/00026863_info.json;579.129.745-98;04.355.100-2;07/05/2002;Avelas Wilkens Lacaz
 00026864;files/00026864_in.jpg;files/00026864_gt_ocr.txt;files/00026864_gt_segmentation.jpg;files/00026864_info.json;866.125.989-48;44.840.014-5;02/02/1982;Akutagawa Crivelini Eleia
+00026865;files/00026865_in.jpg;files/00026865_gt_ocr.txt;files/00026865_gt_segmentation.jpg;files/00026865_info.json;;02.967.492-7;06/01/1983;Malandrin Thaila Pinaya
