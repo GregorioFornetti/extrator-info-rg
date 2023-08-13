@@ -1236,7 +1236,7 @@ id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
 00027189;files/00027189_in.jpg;files/00027189_gt_ocr.txt;files/00027189_gt_segmentation.jpg;files/00027189_info.json;141.173.427-03;10.997.333-1;16/06/1961;Colello Nabarrete Bussolotti
 00027190;files/00027190_in.jpg;files/00027190_gt_ocr.txt;files/00027190_gt_segmentation.jpg;files/00027190_info.json;;92.741.260-3;10/09/2010;Smith Morgenstern Kury
 00027191;files/00027191_in.jpg;files/00027191_gt_ocr.txt;files/00027191_gt_segmentation.jpg;files/00027191_info.json;069.558.809-50;72.444.285-6;02/12/2008;Crovador Sabioni Albarelli
-00027192;files/00027192_in.jpg;files/00027192_gt_ocr.txt;files/00027192_gt_segmentation.jpg;files/00027192_info.json;948.181.091-77;50.758.309-7;01/07/2003;
+00027192;files/00027192_in.jpg;files/00027192_gt_ocr.txt;files/00027192_gt_segmentation.jpg;files/00027192_info.json;948.181.091-77;50.758.309-7;01/07/2003;Viscomi Michalisc
 00027193;files/00027193_in.jpg;files/00027193_gt_ocr.txt;files/00027193_gt_segmentation.jpg;files/00027193_info.json;699.454.695-09;75.975.473-1;27/08/1976;Sorio Rondinelli Delgado
 00027194;files/00027194_in.jpg;files/00027194_gt_ocr.txt;files/00027194_gt_segmentation.jpg;files/00027194_info.json;683.870.972-41;73.891.659-6;05/04/1971;Marao Balganon Kakutate
 00027195;files/00027195_in.jpg;files/00027195_gt_ocr.txt;files/00027195_gt_segmentation.jpg;files/00027195_info.json;305.541.878-68;35.727.623-1;30/10/1969;Neila Wiclif Bernhard
@@ -1316,7 +1316,7 @@ id;image_path;ocr_path;segmentation_path;info_path;cpf;rg;birthdate;name
 00027272;files/00027272_in.jpg;files/00027272_gt_ocr.txt;files/00027272_gt_segmentation.jpg;files/00027272_info.json;852.422.354-54;11.351.804-3;18/04/1972;Guardiano Moreno Ricardo
 00027273;files/00027273_in.jpg;files/00027273_gt_ocr.txt;files/00027273_gt_segmentation.jpg;files/00027273_info.json;645.420.537-17;19.519.231-4;24/07/2009;Mostazo Tatiane Bluhm
 00027274;files/00027274_in.jpg;files/00027274_gt_ocr.txt;files/00027274_gt_segmentation.jpg;files/00027274_info.json;714.897.538-77;74.185.560-4;15/04/2006;Bruneti Ally Ranzatti
-00027275;files/00027275_in.jpg;files/00027275_gt_ocr.txt;files/00027275_gt_segmentation.jpg;files/00027275_info.json;849.477.004-75;48.138.760-2;05/07/1957;
+00027275;files/00027275_in.jpg;files/00027275_gt_ocr.txt;files/00027275_gt_segmentation.jpg;files/00027275_info.json;849.477.004-75;48.138.760-2;05/07/1957;Muscat Castelini Collegari
 00027276;files/00027276_in.jpg;files/00027276_gt_ocr.txt;files/00027276_gt_segmentation.jpg;files/00027276_info.json;617.052.927-04;70.627.987-6;16/02/1958;Toishikawa Leardini Marcolin
 00027277;files/00027277_in.jpg;files/00027277_gt_ocr.txt;files/00027277_gt_segmentation.jpg;files/00027277_info.json;282.023.045-80;30.277.940-1;23/10/2003;Massaini Campolino Moma
 00027278;files/00027278_in.jpg;files/00027278_gt_ocr.txt;files/00027278_gt_segmentation.jpg;files/00027278_info.json;974.560.663-45;03.966.640-2;11/01/1985;Lemes Ludovino Saman
