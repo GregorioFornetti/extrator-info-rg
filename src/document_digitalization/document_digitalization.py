@@ -5,14 +5,43 @@ import cv2
 
 
 def document_digitalization(image):
-    pass
+    # Recebe uma imagem e retorna o maior retângulo digitalizado
+    rect_edges = find_document_edges(image)
+    return perspective_transform(image, rect_edges)
 
 def mark_document_found(image):
-    pass
+    # Retorna uma imagem com as bordas do retângulo encontrado marcadas
+    # Caso não tenha sido encontrado as bordas na imagem, a imagem original será retornada sem nenhuma modificação
+
+    rect_edges = find_document_edges(image)
+    if rect_edges is not None:
+        img_copy = image.copy()
+        for edge in rect_edges:
+            cv2.circle(
+                img=img_copy, 
+                center=edge, 
+                radius=3,
+                color=(0, 0, 255), 
+                thickness=4
+            )
 
 
 def find_document_edges(image):
-    pass
+    # Encontra os pontos dos cantos do maior retângulo encontrado
+    # Retorna uma lista contendo esses 4 pontos, sem uma ordem especifica dos pontos
+    
+    edged_img = cv2.Canny(image, 75, 200)
+
+    cnts, _ = cv2.findContours(edged_img, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:5]
+
+    for c in cnts:
+        peri = cv2.arcLength(c, True)
+        approx = cv2.approxPolyDP(c, 0.02 * peri, True)
+
+        if len(approx) == 4:
+            return [tuple(d[0]) for d in approx]
+    return None
 
 def order_points(rect_edges):
     # Recebe como entrada um vetor com 4 pontos (vetores de tamanho 2, com valores de x e y)
@@ -52,6 +81,9 @@ def order_points(rect_edges):
     return rect
 
 def perspective_transform(image, pts):
+    # Recebe como entrada uma imagem e os pontos das bordas do retângulo encontrado na imagem
+    # Retorna uma imagem com apenas a região do retângulo, transformado parecido com uma digitalização
+
     # unpack the ordered coordinates individually
     rect = order_points(pts)
     (tl, tr, br, bl) = rect
