@@ -15,6 +15,11 @@ def find_document_edges(image):
     pass
 
 def order_points(rect_edges):
+    # Recebe como entrada um vetor com 4 pontos (vetores de tamanho 2, com valores de x e y)
+    # essa entrada representa pontos de um retângulo, porém não necessariamente eles possuem alguma ordem
+    # O retorno será um vetor com esses mesmos 4 pontos só que de forma ordenada, o primeiro será o canto superior esquerdo
+    # (tr), o segundo o canto superior direito (tl), o terceiro o canto inferior direito (br) e o último o canto inferior esquerdo (bl)
+    # ou seja, retorna: [tr, tl, br, bl]
    
     # Lembrando: o sistema de coordenadas de uma imagem começa no ponto superior esquerdo (x=0, y=0)
     # Ao caminhar para direita, o valor de x aumenta e de y aumenta...
@@ -26,11 +31,11 @@ def order_points(rect_edges):
     points_coordinates_sum = rect_edges.sum(axis=1)
 
     # ponto superior esquerdo será o ponto que possuir menor soma (valor de x + y)
-    # já que o valor de x e de y serão mínimos (os outros pontis terão pelo menos uma das duas coordenadas bem superior)
+    # já que o valor de x e de y serão mínimos (os outros pontos terão pelo menos uma das duas coordenadas bem superior)
     rect[0] = rect_edges[np.argmin(points_coordinates_sum)]
 
     # ponto inferior direito terá a maior soma (valor de x + y)
-    # já que o valor de x e de y serão máximos (as outras pontis terão pelo menos uma das duas coordenadas bem inferior)
+    # já que o valor de x e de y serão máximos (as outras pontos terão pelo menos uma das duas coordenadas bem inferior)
     rect[2] = rect_edges[np.argmax(points_coordinates_sum)]
 
     # Calcula a diferença entre y e x (y-x) para cada ponto
