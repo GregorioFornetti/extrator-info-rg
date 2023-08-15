@@ -3,6 +3,8 @@
 import numpy as np
 import cv2
 
+from image_preprocessing.filters import to_gray, decrease_noise
+
 
 def digitalize_document(image):
     # Recebe uma imagem e retorna o maior retângulo digitalizado
@@ -12,8 +14,10 @@ def digitalize_document(image):
 def mark_document_found(image):
     # Retorna uma imagem com as bordas do retângulo encontrado marcadas
     # Caso não tenha sido encontrado as bordas na imagem, a imagem original será retornada sem nenhuma modificação
+    gray_image = to_gray(image)
+    filtered_image = decrease_noise(gray_image)
 
-    rect_edges = find_document_edges(image)
+    rect_edges = find_document_edges(filtered_image)
     if rect_edges is not None:
         img_copy = image.copy()
         for edge in rect_edges:
@@ -24,6 +28,8 @@ def mark_document_found(image):
                 color=(0, 0, 255), 
                 thickness=4
             )
+        return img_copy
+    return image
 
 
 def find_document_edges(image):
@@ -40,7 +46,7 @@ def find_document_edges(image):
         approx = cv2.approxPolyDP(c, 0.02 * peri, True)
 
         if len(approx) == 4:
-            return [tuple(d[0]) for d in approx]
+            return np.array([tuple(d[0]) for d in approx])
     return None
 
 def order_points(rect_edges):
