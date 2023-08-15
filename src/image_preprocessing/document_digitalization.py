@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 
 
-def document_digitalization(image):
+def digitalize_document(image):
     # Recebe uma imagem e retorna o maior retângulo digitalizado
     rect_edges = find_document_edges(image)
     return perspective_transform(image, rect_edges)
