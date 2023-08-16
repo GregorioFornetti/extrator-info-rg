@@ -1,1 +1,0 @@
-# Etapa de pré-processamento da imagem
