@@ -9,7 +9,9 @@ from image_preprocessing.filters import to_gray, decrease_noise
 def digitalize_document(image):
     # Recebe uma imagem e retorna o maior retângulo digitalizado
     rect_edges = find_document_edges(image)
-    return perspective_transform(image, rect_edges)
+    if rect_edges is not None:
+        return perspective_transform(image, rect_edges)
+    return image
 
 def mark_document_found(image):
     # Retorna uma imagem com as bordas do retângulo encontrado marcadas
