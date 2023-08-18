@@ -3,7 +3,7 @@ import cv2
 
 
 img_size = (150, 112)
-model = load('image_classification/svm_model.joblib')
+model = load('image_classification/lof_model.joblib')
 
 
 def get_rg_probability(img):
